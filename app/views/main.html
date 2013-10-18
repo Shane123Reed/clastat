@@ -2,10 +2,10 @@
 <body>
     <div id="container">
       <div id="redgrp" class="column">
-      	<div class="student" ng-repeat="x in cohortObj.cohortArr" ng-bind="x.name" ng-click="switchGrn($index)" ng-hide="x.smart"></div>
+      	<div class="student red" ng-repeat="x in cohortObj.cohortArr" ng-bind="x.name" ng-click="switchGrn($index)" ng-hide="x.smart"></div>
       </div>
       <div id="grngrp" class="column">
-      	<div class="student" ng-repeat="x in cohortObj.cohortArr" ng-bind="x.name" ng-click="switchRed($index)" ng-show="x.smart"></div>
+      	<div class="student green" ng-repeat="x in cohortObj.cohortArr" ng-bind="x.name" ng-click="switchRed($index)" ng-show="x.smart"></div>
       </div>
       <div class="clear"></div>
     </div>

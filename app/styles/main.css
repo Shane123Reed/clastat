@@ -12,14 +12,14 @@ header {
  }
 
 #redgrp {
-    background-color: red;
+
     width: 15em;
     height: 50em;
     float: left;
 }
 
 #grngrp {
-    background-color: green;
+
     width: 15em;
     height: 50em;
     float: right;
@@ -34,8 +34,15 @@ header {
     height: 2em;
     border: 1px solid black;
 
-}
 
+}
+ .green {
+    background-color: green;
+ }
+
+ .red {
+    background-color: red;
+ }
 
 
 /*.clear { clear: both; }*/
