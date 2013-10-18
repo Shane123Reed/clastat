@@ -1,9 +1,13 @@
-<div class="hero-unit">
-  <h1>'Allo, 'Allo!</h1>
-  <p>You now have</p>
-  <ul>
-      <li ng-repeat="thing in awesomeThings">{{thing}}</li>
-  </ul>
-  <p>installed.</p>
-  <h3>Enjoy coding! - Yeoman</h3>
-</div>
+<header>Welcome to Clastat</header>
+<body>
+    <div id="container">
+      <div id="redgrp" class="column">
+      	<div class="student" ng-repeat="x in cohortObj.cohortArr" ng-bind="x.name" ng-click="switchGrn($index)" ng-hide="x.smart"></div>
+      </div>
+      <div id="grngrp" class="column">
+      	<div class="student" ng-repeat="x in cohortObj.cohortArr" ng-bind="x.name" ng-click="switchRed($index)" ng-show="x.smart"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="container-fluid"></div>
+  </body>

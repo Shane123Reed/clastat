@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('clastatApp', [])
+angular.module('clastatApp', ["firebase"])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {

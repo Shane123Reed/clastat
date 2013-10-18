@@ -1,22 +1,41 @@
-body {
-    background: #fafafa;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
+header {
+    width: 50em;
+    height: 5em;
+    background: blue;
+    margin: 0 auto;
+}
+#container {
+    position: relative;
+    width: 50em;
+    height: 100%;
+    margin: 0 auto;
+ }
+
+#redgrp {
+    background-color: red;
+    width: 15em;
+    height: 50em;
+    float: left;
 }
 
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 60px;
+#grngrp {
+    background-color: green;
+    width: 15em;
+    height: 50em;
+    float: right;
+/*    clear: both;*/
 }
 
-.hero-unit h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
+.student {
+    clear: both;
+    position: inline-block;
+    float: left;
+    width: 15em;
+    height: 2em;
+    border: 1px solid black;
+
 }
+
+
+
+/*.clear { clear: both; }*/
