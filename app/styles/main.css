@@ -1,48 +1,57 @@
-header {
-    width: 50em;
-    height: 5em;
-    background: blue;
-    margin: 0 auto;
+body {
+    background-image: url(http://www.hdwallpapers3d.com/wp-content/uploads/2013/04/new_york_city_madness_wallpaper_hd-wide.jpg);
+    background-size: cover;
 }
+
 #container {
     position: relative;
-    width: 50em;
+    width: 21em;
     height: 100%;
-    margin: 0 auto;
+    left: 40px;
  }
 
-#redgrp {
+ .student {
+    color: white;
+    font-family: Helvetica;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 2px;
+    letter-spacing: 1px;
+    height: 1em;
+    width: 8em;
+    padding-bottom: 3px;
+    margin:; 0;
+}
 
-    width: 15em;
+#redgrp {
+    width: 5em;
     height: 50em;
     float: left;
+    border-radius: 20px;
 }
 
 #grngrp {
-
-    width: 15em;
+    width: 5em;
     height: 50em;
     float: right;
-/*    clear: both;*/
 }
 
-.student {
-    clear: both;
-    position: inline-block;
-    float: left;
-    width: 15em;
-    height: 2em;
-    border: 1px solid black;
-
-
-}
  .green {
-    background-color: green;
+    background-color: rgba(30, 100, 30, .5);
  }
 
  .red {
-    background-color: red;
+    background-color: rgba(200, 30, 30, .5);
  }
 
+ img {
+    position: fixed;
+    right: 40px;
+    top: 100px;
+ }
 
-/*.clear { clear: both; }*/
+ @media (max-width: 890px) {
+    img {
+        display: none;
+    }
+}
