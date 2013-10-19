@@ -59,6 +59,43 @@ body {
     top: 100px;
  }
 
+/*FADE OUT OF GA LOGO*/
+ @media (max-width: 920px) {
+    img {
+        opacity: .9;
+    }
+}
+
+ @media (max-width: 915px) {
+    img {
+        opacity: .8;
+    }
+}
+
+ @media (max-width: 910px) {
+    img {
+        opacity: .7;
+    }
+}
+
+ @media (max-width: 905px) {
+    img {
+        opacity: .6;
+    }
+}
+
+ @media (max-width: 900px) {
+    img {
+        opacity: .4;
+    }
+}
+
+ @media (max-width: 895px) {
+    img {
+        opacity: .2;
+    }
+}
+
  @media (max-width: 890px) {
     img {
         display: none;
