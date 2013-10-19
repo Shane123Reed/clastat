@@ -43,6 +43,16 @@ body {
     background-color: rgba(200, 30, 30, .5);
  }
 
+ .green:hover
+{ 
+    background-color: rgba(20, 100, 20, .3);
+}
+
+ .red:hover
+{ 
+    background-color: rgba(200, 20, 20, .3);
+}
+
  img {
     position: fixed;
     right: 40px;

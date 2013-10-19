@@ -21,9 +21,9 @@ angular.module('clastatApp')
       $scope.cohortObj.cohortArr[x].smart=false
     }
 
-
-
-
+    // $scope.hover = function(e) {
+    // angular.element(e.srcElement).addClass('DivHover')
+    // }
 
 
 
