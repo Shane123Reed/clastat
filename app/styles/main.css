@@ -1,6 +1,7 @@
 body {
     background-image: url(http://www.hdwallpapers3d.com/wp-content/uploads/2013/04/new_york_city_madness_wallpaper_hd-wide.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #container {
@@ -64,11 +65,17 @@ body {
     img {
         opacity: .9;
     }
+    #container{
+        left: 38px;
+    }
 }
 
  @media (max-width: 915px) {
     img {
         opacity: .8;
+    }
+    #container{
+        left: 36px;
     }
 }
 
@@ -76,11 +83,17 @@ body {
     img {
         opacity: .7;
     }
+    #container{
+        left: 34px;
+    }
 }
 
  @media (max-width: 905px) {
     img {
         opacity: .6;
+    }
+    #container{
+        left: 32px;
     }
 }
 
@@ -88,16 +101,25 @@ body {
     img {
         opacity: .4;
     }
+    #container{
+        left: 28px;
+    }
 }
 
  @media (max-width: 895px) {
     img {
         opacity: .2;
     }
+    #container{
+        left: 24px;
+    }
 }
 
  @media (max-width: 890px) {
     img {
         display: none;
+    }
+    #container{
+        left: 20px;
     }
 }
