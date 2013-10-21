@@ -1,4 +1,4 @@
-<body>
+<body ngCloak>
     <div id="container">
       <div id="redgrp" class="column">
       	<div class="student red" ng-repeat="x in cohortObj.cohortArr" ng-bind="x.name" ng-click="switchGrn($index)" ng-hide="x.smart"></div>
